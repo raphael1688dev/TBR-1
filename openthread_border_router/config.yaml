@@ -25,13 +25,14 @@ devices:
 image: homeassistant/{arch}-addon-otbr
 init: false
 options:
-  device: null
+  device: /dev/null
   baudrate: "460800"
   flow_control: true
   autoflash_firmware: true
   otbr_log_level: notice
   firewall: false
   nat64: false
+  network_device: null
 ports:
   8180/tcp: null
   8181/tcp: null
