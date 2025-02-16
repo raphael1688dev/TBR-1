@@ -25,7 +25,7 @@ devices:
 image: homeassistant/{arch}-addon-otbr
 init: false
 options:
-  device: /dev/null
+  device: null
   baudrate: "460800"
   flow_control: true
   autoflash_firmware: true
@@ -40,7 +40,7 @@ ports_description:
   8180/tcp: OpenThread Web port
   8181/tcp: OpenThread REST API port
 schema:
-  device: device(subsystem=tty)
+  device: device(subsystem=null)
   baudrate: list(57600|115200|230400|460800|921600)
   flow_control: bool
   network_device: str?
