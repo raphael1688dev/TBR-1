@@ -1,7 +1,7 @@
 ---
 version: 2.13.0
 slug: openthread_border_router
-name: OpenThread Border Router
+name: OpenThread Border Router(TBR-1)
 description: OpenThread Border Router add-on
 url: >-
   https://github.com/raphael1688dev/TBR-1/tree/master/openthread_border_router
