@@ -4,7 +4,7 @@ slug: openthread_border_router
 name: OpenThread Border Router
 description: OpenThread Border Router add-on
 url: >-
-  https://github.com/raphael1688dev/TBR-1/edit/master/openthread_border_router
+  https://github.com/raphael1688dev/TBR-1/tree/master/openthread_border_router
 arch:
   - aarch64
   - amd64
@@ -30,14 +30,14 @@ options:
   flow_control: true
   autoflash_firmware: true
   otbr_log_level: notice
-  firewall: true
+  firewall: false
   nat64: false
 ports:
-  8080/tcp: null
-  8081/tcp: null
+  8180/tcp: null
+  8181/tcp: null
 ports_description:
-  8080/tcp: OpenThread Web port
-  8081/tcp: OpenThread REST API port
+  8180/tcp: OpenThread Web port
+  8181/tcp: OpenThread REST API port
 schema:
   device: device(subsystem=tty)
   baudrate: list(57600|115200|230400|460800|921600)
