@@ -25,7 +25,7 @@ devices:
 image: homeassistant/{arch}-addon-otbr
 init: false
 options:
-  device: null
+  device: /dev/null
   baudrate: "460800"
   flow_control: true
   autoflash_firmware: false
