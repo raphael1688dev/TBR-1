@@ -18,6 +18,9 @@ host_ipc: false
 host_network: true
 host_uts: true
 privileged: true
+#privileged:
+#  - IPC_LOCK
+#  - NET_ADMIN
 devices:
   - /dev/net/tun
 image: homeassistant/{arch}-addon-otbr
