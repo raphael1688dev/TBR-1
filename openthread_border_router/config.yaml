@@ -28,7 +28,7 @@ devices:
   - /dev/net/tun
 #devices:
 #  - /dev/net/tun:/dev/net/tun
-image: raphael1688dev/{arch}-addon-otbr1
+image: homeassistant/{arch}-addon-otbr
 init: false
 options:
   device: null
